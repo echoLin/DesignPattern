@@ -25,7 +25,6 @@ public class Main {
 		}
 		System.out.println();
 		
-		
 		iterator = tree.iterator(BinaryTree.MidIteratorType);
 		System.out.println("midIterator");
 		while(iterator.hasNext()){
