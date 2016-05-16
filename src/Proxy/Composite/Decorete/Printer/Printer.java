@@ -1,21 +1,26 @@
 package Proxy.Composite.Decorete.Printer;
 
-import java.util.ArrayList;
+import Decorate.String.Display;
 
 public class Printer implements Printable{
 	private String name;
-	private ArrayList list = new ArrayList();
+	
+	public Printer(String name){
+		this.name = name;
+	}
 	@Override
 	public void setPrinterName(String name) {
+		this.name = name;
 	}
 
 	@Override
 	public String getPrinterName() {
-		return null;
+		return name;
 	}
 
 	@Override
-	public void print(String string) {
+	public void print(Display display) {
+		display.show();
 	}
 
 }
