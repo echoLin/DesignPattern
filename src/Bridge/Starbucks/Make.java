@@ -10,6 +10,6 @@ public class Make{
 		impl.putCoffe();
 		impl.putCup();
 		impl.putMilkAndFoam();
-		System.out.println("----------end of make coffe---------");
+		System.out.println();
 	}
 }
